@@ -1,0 +1,83 @@
+Enter the DNS name or IP address of the server: 
+RTT of establishing connection: 15ms
+Enter the HTTP Method type:
+Enter the requested file name(include ext):
+Enter the HTTP Version:
+Acceptable inputs are: 1.0, 1.1, or 2.0
+Enter the user-agent:
+
+GET /CS3700.htm HTTP/1.1
+Host: localhost
+User-Agent: Joe
+
+
+Response Message from Server: 
+HTTP/1.1 200 OK
+Date: 06/14/2017 10:40:58
+Server: HTTP Server Networks Class
+RTT = 4ms
+Would you like to continue?(Yes/No): 
+Enter the HTTP Method type:
+Enter the requested file name(include ext):
+Enter the HTTP Version:
+Acceptable inputs are: 1.0, 1.1, or 2.0
+Enter the user-agent:
+
+GET /Test3.txt HTTP/2.0
+Host: localhost
+User-Agent: Bro
+
+
+Response Message from Server: 
+HTTP/2.0 200 OK
+Date: 06/14/2017 10:41:10
+Server: HTTP Server Networks Class
+RTT = 3ms
+Would you like to continue?(Yes/No): 
+Enter the HTTP Method type:
+Enter the requested file name(include ext):
+Enter the HTTP Version:
+Acceptable inputs are: 1.0, 1.1, or 2.0
+Enter the user-agent:
+
+POST /CS3700.htm HTTP/2.0
+Host: localhost
+User-Agent: Sally
+
+
+Response Message from Server: 
+400 BAD REQUEST
+RTT = 1ms
+Would you like to continue?(Yes/No): 
+Enter the HTTP Method type:
+Enter the requested file name(include ext):
+Enter the HTTP Version:
+Acceptable inputs are: 1.0, 1.1, or 2.0
+Enter the user-agent:
+
+GET /CPOT.txt HTTP/2.2
+Host: localhost
+User-Agent: Bobette
+
+
+Response Message from Server: 
+404 FILE NOT FOUND
+RTT = 2ms
+Would you like to continue?(Yes/No): 
+Enter the HTTP Method type:
+Enter the requested file name(include ext):
+Enter the HTTP Version:
+Acceptable inputs are: 1.0, 1.1, or 2.0
+Enter the user-agent:
+
+GET /CS3700.htm HTTP/1.0
+Host: localhost
+User-Agent: Joe
+
+
+Response Message from Server: 
+HTTP/1.0 200 OK
+Date: 06/14/2017 10:42:10
+Server: HTTP Server Networks Class
+RTT = 2ms
+Would you like to continue?(Yes/No): 
